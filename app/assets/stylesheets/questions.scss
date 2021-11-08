@@ -1,3 +1,24 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #DDDDDD;
+$yellow: #FFFFE1;
+
+.answer-container {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-left: solid $gray 10px;
+  margin: 20px;
+  p{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+
+.coach{
+  background-color: $yellow ;
+}
